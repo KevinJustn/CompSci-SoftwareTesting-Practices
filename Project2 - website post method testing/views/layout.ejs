@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <% include ./partials/head %>
+  </head>
+  
+
+    <!----
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %> </p>
+    <h3><%= new Date(); %> </h3>
+    -->
+  <body class="container">
+
+    <header>
+        <% include ./partials/navigation %>
+    </header>
+    
+    <main>
+        <%- body -%>
+    </main>
+    
+
+
+
+
+    <footer>
+        <% include ./partials/footer %>
+    </footer>
+    
+  </body>
+
+
+  
+</html>

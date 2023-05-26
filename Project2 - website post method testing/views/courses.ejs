@@ -1,0 +1,7 @@
+courses.ejs
+
+<h1>Our Products</h1>
+<% offeredCourses.forEach(course => {%> 
+    <h5> <%= course.title %> </h5>
+    <span>$ <%= course.price %> </span>
+<% }) %>

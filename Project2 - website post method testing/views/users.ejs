@@ -1,0 +1,8 @@
+users.ejs
+
+
+<h1>Our Users</h1>
+<% allUsers.forEach(user => {%> 
+    <h5> <%= user.name %> </h5>
+    <span>$ <%= user.gender %> </span>
+<% }) %>
